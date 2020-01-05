@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Ropa+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Kulim+Park&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="practice.css">
+  <title>Practice</title>
+</head>
+<body>
+  <div class='body'>
+    <div class='top'>
+      <nav>
+        <img id='mounts' class='one' src='img/mountains-logo.png'>
+        <ul class='a' id='first-ul'>
+          <li><a href='practice.html#second-ul'>01.HISTORY</a></li>
+          <li><a href='practice.html#last-ul'>02.TEAM</a></li>
+        </ul>
+          <i class='fa fa-bars' onclick='toggle()'></i>
+      </nav>
+    </div>
+  </div>
+    <nav>
+      <img id='mounts' src='img/mountain-logo.jpg'>
+      <ul id='second-ul' class='b'>
+        <li><a href='practice.html#second-ul'>01.HISTORY</a></li>
+        <li><a href='practice.html#last-ul'>02.TEAM</a></li>
+      </ul>
+      <i class='fa fa-bars' onclick='toggle2()'></i>
+    </nav>
+  <div class='body'>
+    <div class='middle'>
+      <div class='container'>
+
+        <div class='container-img fade'>
+          <img class='imgs' id='one' src='img/hiking1.png'>
+        </div>
+        <div class='container-img fade'>
+          <img class='imgs' id='two' src='img/hiking2.jpeg'>
+        </div>
+        <div class='container-img fade'>
+          <img class='imgs' id='three' src='img/hiking3.jpg'>
+        </div>
+
+        <div id='dots'>
+          <span class='dot' onclick='currentSlide(1)'></span>
+          <span class='dot' onclick='currentSlide(2)'></span>
+          <span class='dot' onclick='currentSlide(3)'></span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class='body-white'>
+    <img class='white' src='img/white.jpg'>
+  </div>
+  <div class='body'>
+    <div class='bottom'>
+      <ul id='last-ul'>
+        <li id='onest'>MOUNTAIN 1</li>
+        <li id='twoest'>MOUNTAIN 2</li>
+      </ul>
+      <div id='inner-box'>
+        <p id='title'>SCHEDULE</p>
+        <div class='left-text'>
+        <p>25 Nov 2016</p>
+        <p>28 Nov 2016</p>
+        <p class='left'>18 Dec 2016</p>
+        <p class='left'>7 Jan 2017</p>
+        </div>
+        <div class='right-text'>
+        <p>Vestibulum viverra</p>
+        <p>Vestibulum viverra</p>
+        <p class='right'>Vestibulum viverra</p>
+        <p class='right'>Vestibulum viverra</p>
+        </div>
+      </div>
+    </div>
+    <script src="practice.js"></script>
+  </div>
+</body>
+</html>
